@@ -1,0 +1,12 @@
+[package]
+name = "lyn-wm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bitflags = "2.5.0"
+tracing-subscriber = { version = "0.3.18", features = ["env-filter"]}
+
+[dependencies.smithay]
+path = "smithay"
+
